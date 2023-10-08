@@ -31,17 +31,17 @@ public class Main {
         num1 += 2;
         System.out.println(num1);
 
-        num1 ++; //post-increment
+        num1 ++; //post-increment(fetch the value and then increment)
         System.out.println(num1);
 
 
-        num1 --; //post-decrement
+        num1 --; //post-decrement(fetch the value and then decrement)
         System.out.println(num1);
 
-        ++num1 ; //pre-decrement
+        ++num1 ; //pre-decrement(increment and then fetch the value )
         System.out.println(num1);
 
-        --num1 ; //pre-decrement
+        --num1 ; //pre-decrement(decrement and then fetch the value )
         System.out.println(num1);
 
     }
